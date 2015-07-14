@@ -28,8 +28,6 @@ and make best use of contemporary web technologies. Consequently, I want to leve
 and the beauty of static websites. I need something that allows me to create a small portfolio website with a blog. No Wordpress this time!
 
 My agenda was to...
-1. Find a static site generator
-3. Make it bett(-er)
 
 ### 1. Find a static site generator
 
@@ -52,7 +50,7 @@ GitHub already serves quite fast, using [fastly.com](https://www.fastly.com/cust
 my custom domain with it. But I cant do that using *https*. GitHub provides no means to upload a certificate.
  
 Luckily, clever people found a solution: [Ben Burwell](https://www.benburwell.com) shows, how to get [SSL for custom domains mapped to GitHub Pages](https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/). 
-Essentially, traffic is rerouted through [CloudFlare}(http://cloudflare.com) which provides free SSL encryption.
+Essentially, traffic is rerouted through [CloudFlare](http://cloudflare.com) which provides free SSL encryption.
 
 ## Conclusion, tl;dr
 
