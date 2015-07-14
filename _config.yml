@@ -3,34 +3,58 @@
 #
 
 # Name of your site (displayed in the header)
-name: Jan Betzing
+title: Jan Betzing
 
 # Short bio or description (displayed in the header)
-description: PhD Student @ ERCIS
+description: > # this means to ignore newlines until "email:"
+  PhD Student @ ERCIS
 
+email: jan@rck.ms
+
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Jan Betzing'
+author: 'Jan Betzing'
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
+author_image: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
 
+paginate:	5
 #
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: jan@rck.ms
-  facebook:
-  flickr:
-  github: balauue
-  instagram: weggerockt
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+# social icons and sharing options
+social:
+#  - icon:	twitter
+#    url:	https://twitter.com/dirkfabisch
+#    desc: Follow me on twitter
+#    share_url: http://twitter.com/share
+#    share_title: ?text=
+#    share_link: "&amp;url="
 
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/balauue
+    desc:	Find me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -66,6 +90,7 @@ sass:
 
 # Use the following plug-ins
 gems:
+  - jemoji
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
