@@ -8,7 +8,7 @@ image: /assets/article_images/2015-07-14-how-to-jekyll/cable_zoo.jpg
 
 Nine years ago I used my first CMS, [B2Evolution](https://en.wikipedia.org/wiki/B2evolution). Since then, I made my way over various 
 platforms and kept stuck with [Wordpress](https://www.wordpress.org) and [Drupal](https://www.drupal.org). 
-In a recent [blog post](http://blog.stackexchange.com/2015/07/how-we-built-our-blog/) [http://blog.stackexchange.com/authors/jonhmchan/](John Chan) explains, 
+In a recent [blog post](http://blog.stackexchange.com/2015/07/how-we-built-our-blog/) [John Chan](http://blog.stackexchange.com/authors/jonhmchan/) explains, 
 how the StackExchange blog was migrated from Wordpress to static files. This kept me thinking: 
 Despite improvements in bandwidth, computational power, and more and more powerful webhosting and cloud offerings,  
 website speed often did not follow this trend. That is because CMS getting more and more bloated by complex plugins and themes,  
