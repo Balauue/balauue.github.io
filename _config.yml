@@ -21,7 +21,8 @@ cover: "/assets/images/background_image.jpg"
 name: 'Jan Betzing'
 author: 'Jan Betzing'
 author.bio: >
-Web-developer, Student, Jekyll Beginner
+  Web-developer, Student, Jekyll Beginner
+  
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 author_image: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
 
