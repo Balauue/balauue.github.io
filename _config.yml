@@ -11,13 +11,17 @@ description: > # this means to ignore newlines until "email:"
 
 email: jan@rck.ms
 
-#blog logo
-logo: "/assets/images/df_logo.jpg"
+#Top left icon
+icon: "/assets/images/icon.png"
+# Main page icon
+logo: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/background_image.jpg"
 
 name: 'Jan Betzing'
 author: 'Jan Betzing'
+author.bio: >
+Web-developer, Student, Jekyll Beginner
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 author_image: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
 
@@ -35,12 +39,12 @@ social:
 #    share_title: ?text=
 #    share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: https://www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	https://facebook.com/balauue
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/balauue
@@ -49,23 +53,23 @@ social:
     share_title:
     share_link:
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+  - icon:	lastfm
+    url:	https://last.fm/user/Balauue
+    desc:	Connect with me on last.fm
+    share_url:
+    share_title:
+    share_link:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: 'rck_ms'
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics:'UA-65113531-1'
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://balauue.github.io
+url: 'https://balauue.github.io'
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
