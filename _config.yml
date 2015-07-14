@@ -6,11 +6,16 @@
 title: Jan Betzing
 
 # Short bio or description (displayed in the header)
-description: > # this means to ignore newlines until "email:"
+description: >
   Researcher in Information Systems [@ ERCIS](https://twitter.com/ercisorg)
   [@ WWU Münster](https://twitter.com/WWU_Muenster),
   software engineer [@ Weggerockt Development](/about/),
   and [music enthusiast](https://last.fm/user/Balauue).
+
+# Short description for meta tags and feed
+metadescription: >
+  Jan Betzing is researcher in Information Systems at the ERCIS at WWU Münster,
+  software engineer at Weggerockt Development, and music enthusiast.
 
 email: jan@rck.ms
 
