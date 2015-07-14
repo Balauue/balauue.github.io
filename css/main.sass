@@ -13,6 +13,10 @@ $rs: 16px
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
+$rckms-secondary: #b2b2b2
+$rckms-highlight: #e6007e
+$rckms-tertiary: #666
+$rckms-primary: #999
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -109,31 +113,31 @@ body
     outline: 0
     line-height: 50px
     word-break: break-word
-    color: #333
+    color: $rckms-primary
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
     font-size: $rs/8*9
     line-height: 1.5
-    color: #666
+    color: $rckms-primary
     text-align: center
     font-weight: 400
     p
       a
         text-decoration: none
-        color: #999
+        color: $rckms-secondary
         &:hover
-          color: #333
+          color: $rckms-highlight
 
   .custom-links
     margin: 0 0 50px
     text-align: center
-    color: #ccc
+    color: $rckms-primary
     a
       text-decoration: none
-      color: #999
+      color: $rckms-secondary
       &:hover
-        color: #333
+        color: $rckms-highlight
 
 .content
   width: 100%
@@ -157,11 +161,11 @@ body
       margin: 0 0
       a
         text-decoration: none
-        color: #333332
+        color: $rckms-secondary
         &:hover
-          text-decoration-color: #e6007e
-          -moz-text-decoration-color: #e6007e
-          -webkit-text-decoration-color: #e6007e
+          text-decoration-color: $rckms-highlight
+          -moz-text-decoration-color: $rckms-highlight
+          -webkit-text-decoration-color: $rckms-highlight
           text-decoration: underline
     .post-excerpt
       letter-spacing: -0.02em
@@ -169,7 +173,7 @@ body
       font-style: normal
       font-size: 20px
       line-height: 1.3
-      color: #666665
+      color: $rckms-tertiary
     .post-meta
       font-size: 14px
       color: #b3b3b1
@@ -204,10 +208,10 @@ body
   padding: $rs*3 0 0
   font-size: $rs/4*3
   a
-    color: #999
+    color: $rckms-secondary
     text-decoration: none
     &:hover
-      color: #333
+      color: $rckms-highlight
 
 .post-reading
   position: absolute
@@ -234,10 +238,10 @@ body
   max-width: 640px
   font-size: $rs/4*3
   text-align: center
-  color: #999
+  color: $rckms-secondary
   line-height: $rs*1.1
   a
-    color: #666
+    color: $rckms-tertiary
     text-decoration: none
     &:hover
       color: #333
@@ -400,7 +404,7 @@ body
       font-style: italic
       font-size: 16px
       line-height: 1.3
-      color: #666665
+      color: $rckms-tertiary
       outline: 0
       z-index: 300
       text-align: center
@@ -483,7 +487,7 @@ body
       margin: 0
       padding-left: 100px
       &.published
-        color: #999
+        color: $rckms-secondary
 .share
   text-align: right
   padding: 20px 0 0
@@ -551,7 +555,7 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: #b2b2b2
+      background: $rckms-secondary
       color: #fff
       vertical-align: middle
       box-sizing: border-box
