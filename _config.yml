@@ -22,7 +22,7 @@ name: 'Jan Betzing'
 author: 'Jan Betzing'
 author.bio: >
   Web-developer, Student, Jekyll Beginner
-  
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 author_image: https://avatars3.githubusercontent.com/u/301907?v=3&s=500
 
@@ -66,7 +66,7 @@ social:
 disqus: 'rck_ms'
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:'UA-65113531-1'
+google_analytics: 'UA-65113531-1'
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
