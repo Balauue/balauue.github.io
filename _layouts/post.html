@@ -50,6 +50,7 @@
           <a name="topofpage"></a>
           {{content}}
         </section>
+          {% include disqus.html %}
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
@@ -73,7 +74,6 @@
             </section>
           {{/post}}
         </div>
-        {% include disqus.html %}
       </article>
     </main>
     <div class="bottom-closer">
