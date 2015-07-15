@@ -24,7 +24,7 @@ Telefon: +49 151 29124681
  
 #### Verwendete Grafiken
 
-Grafiken die auf dieser Weseite genutzt werden stehen entweder unter [MIT License](https://github.com/Balauue/balauue.github.io/blob/master/LICENSE) oder wurden von mir selbst mit einem iPhone 5S oder One Plus One aufgenommen.
+Solange nicht anders deklariert stehen alle Grafiken die auf dieser Weseite genutzt werden entweder unter [MIT License](https://github.com/Balauue/balauue.github.io/blob/master/LICENSE) oder wurden von mir selbst mit einem iPhone 5S oder One Plus One aufgenommen.
 
 ### Haftungsausschluss (Disclaimer)
 
