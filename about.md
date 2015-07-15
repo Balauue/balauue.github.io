@@ -10,7 +10,7 @@ I study Information systems at WWU Münster, QUT Brisbane, and Liechtenstein Uni
 I do software development and IT Consulting for customers all over Europe.
 
 
-**This page is nder construction**
+**This page is under construction**
 
 ### Contact me
 
