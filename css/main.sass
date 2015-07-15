@@ -1,9 +1,7 @@
 ---
 ---
-
-@import 'syntax-highlighting'
-
 @import 'bourbon/bourbon'
+@import 'normalize'
 
 .cf
   @include clearfix
@@ -13,7 +11,7 @@ $rs: 16px
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
-$rckms-secondary: #b2b2b2
+$rckms-secondary: #999
 $rckms-highlight: #e6007e
 $rckms-tertiary: #666
 $rckms-primary: #333
@@ -67,6 +65,10 @@ body
   position: relative
   overflow: hidden
   background-color: #000
+  @include respond-to(880)
+    height: 325px
+  @include respond-to(640)
+    height: 200px
   .teaserimage-image
     background-size: cover
     background-position: center
@@ -141,24 +143,29 @@ body
 
 .content
   width: 100%
-  max-width: 640px
   margin: 0 auto
   @include box-sizing(border-box)
-  @include respond-to(800)
-    padding: 0 $rs*2
   article
-    padding: 40px 0
+    padding: 30px 0
     border-bottom: 1px solid #f2f2f0
     &:last-child
       border-bottom: 0px
+    &.inner
+      max-width: 800px
+      margin: 0 auto
+      @include respond-to(800)
+        padding: 0 $rs*2
     .post-title
       letter-spacing: -0.02em
       font-weight: 700
       font-style: normal
       display: block
-      font-size: 28px
-      line-height: 1.1
-      margin: 0 0
+      font-size: 50px
+      line-height: 1.2
+      margin: 30px 0
+      text-align: center
+      @include respond-to(800)
+        font-size: 32px
       a
         text-decoration: none
         color: $rckms-primary
@@ -168,21 +175,27 @@ body
           -webkit-text-decoration-color: $rckms-highlight
           text-decoration: underline
     .post-excerpt
-      letter-spacing: -0.02em
       font-weight: 300
       font-style: normal
       font-size: 20px
-      line-height: 1.3
+      line-height: 1.5
+      text-align: justify
       color: $rckms-tertiary
     .post-meta
-      font-size: 14px
+      text-align: center
+      font-size: 16px
       color: #b3b3b1
       line-height: 30px
+      time
+        text-transform: uppercase
+        font-weight: bold
       a
         color: #b3b3b1
         text-decoration: none
         &:hover
           text-decoration: underline
+      .post-title
+        text-align: left
 .container.featured
   padding-bottom: 40px
 
@@ -246,6 +259,29 @@ body
     &:hover
       color: #333
 .post
+  .post-hero
+    width: 100%
+    height: 400px
+    background-color: #000
+    margin-bottom: 40px
+    @include respond-to(880)
+      height: 250px
+    @include respond-to(640)
+      height: 175px
+    .post-hero-image
+      background-size: cover
+      text-indent: -9999px
+      position: relative
+      z-index: 1
+      margin: 0px auto
+      display: block
+      width: 100%
+      height: 400px
+      @include respond-to(880)
+        height: 250px
+      @include respond-to(640)
+        height: 175px
+      overflow: hidden
   .article-image
     position: absolute
     background-color: #000
@@ -255,6 +291,8 @@ body
     bottom: 0
     overflow: hidden
     max-height: 600px
+    @include respond-to(880)
+      height: 450px
     .post-image-image
       background-size: cover
       position: absolute
@@ -276,6 +314,9 @@ body
       @include respond-to(800)
         left: $rs
         right: $rs
+        bottom: $rs
+      @include respond-to(640)
+        bottom: 0
     .post-title
       font-weight: 700
       font-style: normal
@@ -356,6 +397,11 @@ body
       font-family: $font-sans
       white-space: nowrap
       text-overflow: ellipsis
+  .article-item
+    max-width: 800px
+    margin: 0 auto
+    @include respond-to(800)
+      padding: 0 $rs*2
   .post-content
     width: 100%
     font-family: $font-serif
@@ -593,3 +639,5 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+@import 'syntax-highlighting'
