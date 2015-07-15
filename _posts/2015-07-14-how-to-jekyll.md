@@ -11,6 +11,8 @@ Nine years ago I used my first CMS, [B2Evolution](https://en.wikipedia.org/wiki/
 In a recent [blog post](http://blog.stackexchange.com/2015/07/how-we-built-our-blog/) [John Chan](http://blog.stackexchange.com/authors/jonhmchan/) explains 
 how the StackExchange blog was migrated from Wordpress to static files. This made me think: Despite improvements in bandwidth, computational power, and more and more powerful webhosting and cloud offerings, website speed often did not follow this trend. 
 
+<!--more-->
+
 One reason are bloated CMS. Users install more complex plugins and themes, turning the platforms into monstrosities. Installations using 50+ plugins have become the rule rather than the exception. These plugins include megabytes of server-side code on every page call and add a zoo of javascript and css file includes to the client-side code. I'm telling no new story, but unfortunately, this trend seems to stick around.
 
 ![Site load metrics for http://theme-fusion.com/avada/, the #1 selling Wordpress theme on themeforest.net](/assets/article_images/2015-07-14-how-to-jekyll/timeline_loading_wordpress_example.jpg "Site load metrics for an exemplary wordpress blog") 
