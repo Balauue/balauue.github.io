@@ -404,7 +404,7 @@ body
       padding: 0 $rs*2
   .post-content
     width: 100%
-    font-family: $font-serif
+    font-family: $font-sans
     color: #333
     h1, h2, h3
       font-family: $font-sans
@@ -422,23 +422,24 @@ body
       font-weight: 700
       font-style: normal
       font-size: 32px
-      line-height: 1.2
-      padding-top: 31px
-      margin-bottom: 4px
+      line-height: 1.5
+      padding: 20px 0
+      text-align: center
     p
-      font-weight: 400
+      font-weight: 300
       font-style: normal
       font-size: 22px
-      line-height: 30px
+      line-height: 2
       margin: 0
       padding-bottom: 30px
-      color: #333
-      -webkit-hyphens: auto
-      -moz-hyphens: auto
-      hyphens: auto
+      color: $rckms-primary
+      @include hyphens(auto)
+      text-align: justify
     a
-      color: #333
-      text-decoration: underline
+      color: $rckms-secondary
+      text-decoration: none
+      &:hover
+        color: $rckms-highlight
     img
       max-width: 100%
       margin: 0 auto
@@ -488,6 +489,8 @@ body
       margin-left: 30px
       margin-bottom: 12px
       padding-top: 2px
+      list-style-type: square
+      padding-left: $rs
       p
         padding: 0 0 golden-ratio(1rem,  1)
     ol li

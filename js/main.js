@@ -14,7 +14,7 @@
         $(".post-content").fitVids();
 
         // Calculates the Date Ago
-        $(".article-item .post-meta time").each( function() {
+        $(".post-meta time").each( function() {
             var dt = $(this).attr("datetime");
             $(this).text(moment(dt).fromNow());
         });

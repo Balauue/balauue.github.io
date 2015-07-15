@@ -9,8 +9,8 @@ permalink: /impressum/
 Jan Betzing  
 Weggerockt Development  
 Parkallee, 33  
-48155 Münster
-Germany
+48155 Münster 
+ Germany
 
 #### Kontakt
 
@@ -21,6 +21,10 @@ Telefon: +49 151 29124681
  Jan Betzing
  
  Quelle: [http://www.e-recht24.de](http://www.e-recht24.de/impressum-generator.html)
+ 
+#### Verwendete Grafiken
+
+Grafiken die auf dieser Weseite genutzt werden stehen entweder unter [MIT License](https://github.com/Balauue/balauue.github.io/blob/master/LICENSE) oder wurden von mir selbst mit einem iPhone 5S oder One Plus One aufgenommen.
 
 ### Haftungsausschluss (Disclaimer)
 

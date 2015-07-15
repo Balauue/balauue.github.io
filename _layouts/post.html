@@ -41,6 +41,11 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
+          <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+            <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+          </div>
+          <br>
           {{content}}
         </section>
           {% include disqus.html %}

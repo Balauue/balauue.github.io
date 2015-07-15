@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I studied at WWU Münster, QUT Brisbane, and Liechtenstein University
+
+I did software development and IT Consulting for customers all over Europe
+
 
 ### More Information
 
