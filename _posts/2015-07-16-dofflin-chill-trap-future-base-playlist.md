@@ -7,7 +7,7 @@ image: /assets/article_images/2015-07-16-dofflin-chill-trap-future-base-playlist
 
 ---
 
-I found my new favorite music genre *Dofflin* for easy listening at work and for relaxing.
+I found my new favorite music genre for easy listening at work and for relaxing. It's called *Dofflin*.
 
 Dofflin (aka Chill Trap) draws from downtempo, r&b, trap, hip-hop and video game music. Its easy, upbeat, and happy electronic music. It's very close to Future Bass and there is no sharp distinction between these genres.
 
