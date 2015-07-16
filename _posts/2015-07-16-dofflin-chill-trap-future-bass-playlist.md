@@ -3,7 +3,7 @@ layout: post
 title: 'Playlist: Dofflin, Chill Trap, Future Bass - My easy listening for 2015'
 date:   2015-07-16 08:00:00
 categories: development
-image: /assets/article_images/2015-07-16-dofflin-chill-trap-future-base-playlist/dofflin.jpg
+image: /assets/article_images/2015-07-16-dofflin-chill-trap-future-bass-playlist/dofflin.jpg
 
 ---
 
