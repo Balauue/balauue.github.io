@@ -5,6 +5,18 @@
 {% include /_js/readingTime.min.js %}
 {% include /_js/moment.min.js %}
 
+// Spotify responsive
+function respondify(){
+    jQuery('iframe[src*="embed.spotify.com"]').each( function() {
+        jQuery(this).css('width',jQuery(this).parent(1).css('width'));
+        jQuery(this).attr('src',jQuery(this).attr('src'));
+    });
+}
+
+jQuery(window).resize(function() {
+    respondify();
+});
+
 /*globals jQuery, document */
 (function ($) {
     "use strict";
@@ -34,7 +46,7 @@
                 $(this).wrap('<figure class="image"></figure>')
                     .after('<figcaption>'+$(this).attr("alt")+'</figcaption>');
         });
-
+        respondify();
     });
 
 }(jQuery));
