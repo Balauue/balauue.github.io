@@ -7,7 +7,7 @@ image: /assets/article_images/about/persons.jpg
 
 I study Information systems at WWU Münster, QUT Brisbane, and Liechtenstein University.
 
-I do software development and IT Consulting for customers all over Europe.
+I do software development and IT Consulting for customers all over Europe with my small business *Weggerockt Development*.
 
 
 **This page is under construction**

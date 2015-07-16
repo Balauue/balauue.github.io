@@ -18,7 +18,7 @@ The [/r/dofflin](https://reddit.com/r/dofflin) community describes Dofflin as
 > [...] a combination of electronic and hip-hop beats, usually in the 80BPM tempo, with influences from early 2000's R&B, dreamy synths, 808 drums and snares, nostalgic samples from early video game scores and sounds, and overall a fusion of the many different influences and styles [...]
 
 
-Interestingly, Spotify pointed me to that genre. It's just a guess, but it seems like Spotify uses geographical user location as ranking criterion. Since I am in Australia, it comes up with artists and tracks that are associated with the Dofflin. This style has some roots in Australia (Wave Racer, Cosmo's Midnight, ...) and is about to become more popular here.
+Interestingly, Spotify pointed me to that genre. It's just a guess, but it seems like Spotify uses geographical user location as ranking criterion. Since I came to Australia, it comes up with artists and tracks that are associated with the Dofflin. This style has some roots in Australia (Wave Racer, Cosmo's Midnight, ...) and is about to become more popular here.
 
 Now it's the time to listen for yourselves: I created a Spotify playlist that contains not only Dofflin, but also tracks that fit into the broader context.
 
