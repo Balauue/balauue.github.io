@@ -30,7 +30,7 @@ I am fond of CRM solutions, research information systems, and CRM systems for sm
 
 I am proud to be part of the <a href="https://www.wi-net.de">WINet Wirtschaftsinformatik-Netzwerk Münster</a>. We are a network for Information Systems people from Münster. Our goal is connecting like-minded people and foster dialogue between students, researchers and professionals. 
 
-We do seminars, trainings, and workshops for students and members. By offering frequent IS tables across Germany, we bring together IS people. We provide a scholarship and financial support for IS students @ WWU Münster. Last but not least, we support almost all student events such as the annual Summer festival, the [IS lan party](http://www.wi-lanparty.de/), graduation ceremony and the [ERCIS launchpad](http://www.ercis-launchpad.de/).
+We do seminars, trainings, and workshops for students and members. By offering frequent IS tables across Germany, we bring together IS people. We provide a scholarship and financial support for IS students @ WWU Münster. Last but not least, we support almost all student events there, such as the annual Summer festival, the [IS lan party](http://www.wi-lanparty.de/), graduation ceremony and the [ERCIS launchpad](http://www.ercis-launchpad.de/).
 <div class="cf">
 
 ## Contact me
