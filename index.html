@@ -55,42 +55,40 @@ layout: default
   <h5 class="index-headline normal"><span>Regular</span></h5>
   {% endif %}
 
-  <div class="cf frame">
-    {% for post in paginator.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      {% if post.image %}
-      <div class="post-hero">
-        <div class="post-hero-image" style="background-image: url({% if post.image %}{{ post.image }}{% endif %})">
-          Article Image
-        </div>
-        </div>
-      {% else %}
-      <hr>
-      {% endif %}
-      <div class="article-item">
-        <div class="post-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
-          <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-        </div>
-        <header class="post-header">
-          <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt" itemprop="description">
-          <p>
-            {% if post.content contains '<!--more-->' %}
-            {{ post.content | split:'<!--more-->' | first | strip_html }}
-            <br>
-            <br>
-            <a href="{{ post.url }}" itemprop="url">Continue reading &raquo;</a>
-            {% else %}
-              {{ post.content | strip_html | truncatewords: 50 }}
-            {% endif %}
-          </p>
-        </section>
+  {% for post in paginator.posts %}
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+    {% if post.image %}
+    <div class="post-hero">
+      <div class="post-hero-image" style="background-image: url({% if post.image %}{{ post.image }}{% endif %})">
+        Article Image
       </div>
-    </article>
-    {% endfor %}
-  </div>
+    </div>
+    {% else %}
+    <hr>
+    {% endif %}
+    <div class="article-item">
+      <div class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+        <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+      </div>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+      </header>
+      <section class="post-excerpt" itemprop="description">
+        <p>
+          {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first | strip_html }}
+          <br>
+          <br>
+          <a href="{{ post.url }}" itemprop="url">Continue reading &raquo;</a>
+          {% else %}
+            {{ post.content | strip_html | truncatewords: 50 }}
+          {% endif %}
+        </p>
+      </section>
+    </div>
+  </article>
+  {% endfor %}
 
   <nav class="pagination" role="navigation">
     {% if paginator.next_page %}

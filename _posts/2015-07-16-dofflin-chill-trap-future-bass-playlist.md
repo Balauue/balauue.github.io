@@ -2,7 +2,7 @@
 layout: post
 title: 'Playlist: Dofflin, Chill Trap, Future Bass - My easy listening for 2015'
 date:   2015-07-16 08:00:00
-categories: development
+categories: music
 image: /assets/article_images/2015-07-16-dofflin-chill-trap-future-bass-playlist/dofflin.jpg
 
 ---
@@ -20,7 +20,7 @@ The [/r/dofflin](https://reddit.com/r/dofflin) community describes Dofflin as
 
 Interestingly, Spotify pointed me to that genre. It's just a guess, but it seems like Spotify uses geographical user location as ranking criterion. Since I came to Australia, it comes up with artists and tracks that are associated with the Dofflin. This style has some roots in Australia (Wave Racer, Cosmo's Midnight, ...) and is about to become more popular here.
 
-Now it's the time to listen for yourselves: I created a Spotify playlist that contains not only Dofflin, but also tracks that fit into the broader context.
+Now it's the time to listen for yourselves: I created a [Spotify playlist](https://open.spotify.com/user/weggerockt/playlist/78MxWdQwXdckMIKS5ijsQl) that contains not only Dofflin, but also tracks that fit into the broader context.
 
 Enjoy!
 
