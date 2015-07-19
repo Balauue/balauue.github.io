@@ -133,12 +133,7 @@ a {
   // 1
 
   background: transparent;
-
-  // 2
-
-  &:focus {
-    outline: thin dotted;
-  }
+  outline: 0;
 
   // 3
 
