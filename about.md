@@ -26,7 +26,7 @@ I am fond of building IT architectures, CRM solutions, IS for research and teach
 
 ## WI-Net
 
-<a href="https://www.wi-net.de"><img style="max-width:400px;float:left;margin-right: 1em;" src="/assets/images/about/winet@2x.png" /></a>
+<a href="https://www.wi-net.de"><img style="float:left;margin-right:1em" width="400" src="/assets/images/about/winet@2x.png" /></a>
 
 I am proud to be part of the <a href="https://www.wi-net.de">WINet Wirtschaftsinformatik-Netzwerk Münster</a>. We are a network for Information Systems people at the WWU Münster. Our goal is connecting like-minded people and foster dialogue between students, researchers and professionals. 
 

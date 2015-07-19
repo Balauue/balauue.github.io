@@ -450,6 +450,8 @@ body
       max-width: 800px
       @include hyphens(auto)
       text-align: justify
+      @include respond-to(800)
+        padding: 0 $rs*2
     a
       color: $rckms-secondary
       text-decoration: none
