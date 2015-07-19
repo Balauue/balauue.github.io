@@ -14,6 +14,8 @@ Generously, GitHub provides [means to add a custom domain](https://help.github.c
 
 In the following I explain, how this works for user and organization pages. I assume you already have set-up your website.
 
+<!--more-->
+
 ## Use a custom domain with GitHub Pages
 
 First, have your domain registered at any domain registrar that allows you setting [name server](https://en.wikipedia.org/wiki/Name_server) records and [DNS zone files](https://en.wikipedia.org/wiki/Zone_file). Otherwise, this won't work.

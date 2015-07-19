@@ -78,12 +78,12 @@ layout: default
         <p>
           {% if post.content contains '<!--more-->' %}
           {{ post.content | split:'<!--more-->' | first | strip_html }}
-          <br>
-          <br>
-          <a href="{{ post.url }}" itemprop="url">Continue reading &raquo;</a>
           {% else %}
             {{ post.content | strip_html | truncatewords: 50 }}
           {% endif %}
+        </p>
+        <p>
+          <a href="{{ post.url }}" itemprop="url">Continue reading &raquo;</a>
         </p>
       </section>
     </div>
