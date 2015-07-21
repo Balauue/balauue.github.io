@@ -53,7 +53,7 @@ There is a simple solution to that. [CloudFlare](https://www.cloudflare.com) off
  
 Get started by signing up at CloudFlare and setting it up for your custom domain (**not the domain.github.io address**). It fetches the DNS records. Make sure these match the ones defined previously (i.e., the A records points to GitHub respective the sub-domain CNAME record points to the GitHub page). 
 
-![CloudFlare DNS configuration](/assets/article_images/2015-07-19-jekyll-github-pages-custom-domain-https-ssl-cdn/DNS.jpg "CloudFlare DNS records")
+![CloudFlare DNS configuration](/assets/article_images/2015-07-19-jekyll-github-pages-custom-domain-https-ssl-cdn/dns.jpg "CloudFlare DNS records")
 
 Now, CloudFlare presents you a primary and secondary name server. Set them for your domain at your domain provider to route your traffic through CloudFlare. Below you see my new configuration at Gandi.
 
