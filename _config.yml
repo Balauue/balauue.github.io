@@ -41,8 +41,15 @@ paginate:	5
 
 # social icons and sharing options
 social:
+  - icon:	linkedin
+    url:	https://de.linkedin.com/in/janbetzing
+    desc: Connect with me on Linked In
+    share_url:
+    share_title:
+    share_link:
+
   - icon:	xing
-    url:	https://xing.com/
+    url:	https://www.xing.com/profile/Jan_Betzing
     desc: Connect with me on Xing
     share_url:
     share_title:
