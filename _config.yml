@@ -76,7 +76,7 @@ social:
     share_title:
     share_link:
 
-  - icon:   bandcamp
+  - icon:   soundcloud #should be bandcamp, but font awesome currently does not contain bandcamp
     url: https://bandcamp.com/balauue
     desc: View my Bandcamp collection
     share_url:
