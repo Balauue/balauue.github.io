@@ -8,7 +8,7 @@ image: /assets/images/about/persons.jpg
 
 Hej, I'm Jan!
 
-I am a PhD student and soon-to-be researcher in Information Systems at the [Chair for Information Systems and Information Management](https://www.wi.uni-muenster.de/department/groups/is/profile) of Prof. Jörg Becker at the [European Research Center for Information Systems](https://www.ercis.org) in Münster, Germany. 
+I am a PhD student and researcher in Information Systems at the [Chair for Information Systems and Information Management](https://www.wi.uni-muenster.de/department/groups/is/profile) of Prof. Dr. Dr. h.c. Dr. h.c. Jörg Becker at the [European Research Center for Information Systems](https://www.ercis.org) in Münster, Germany. 
 
 ## Studies
 
