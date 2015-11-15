@@ -11,7 +11,7 @@ Flash messages are session-based front-end notifications to inform users that an
 
 <!--more-->
 
-Take user authentication as an example. Since version 5.0 Laravel ships with authentication scaffolds (see [this tutorial](https://scotch.io/tutorials/login-with-the-built-in-laravel-5-scaffolding) by Chris Sevilleja for mor information).
+Take user authentication as an example. Since version 5.0 Laravel ships with authentication scaffolds (see [this tutorial](https://scotch.io/tutorials/login-with-the-built-in-laravel-5-scaffolding) by Chris Sevilleja for more information).
 
 On failed authentication, Laravel populates the ``$errors`` variable, so that the problem can be displayed as flash message to the user. However, successful login attempts are implicitly confirmed by not showing the error. The inbuild Laravel authentication lacks a proper success flash message mechanism.
 
@@ -21,48 +21,47 @@ On failed authentication, Laravel populates the ``$errors`` variable, so that th
 The functions relevant for authentication are part of the ``AuthenticatesUsers`` trait. Easy enough, we can overwrite the relevant functions in the ``AuthController``. See the listing below for a possible implementation. The `` Session::flash`` mechanism is used to inform on successful user registration, authentication and log out.
 
 ```php
-    
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
-     */
-    protected function create(array $data)
-    {
-        Session::flash('success', 'User successfully created.');
-		return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'group' => $data['group'],
-            'password' => bcrypt($data['password']),
-        ]);
-    }
-    
-    /**
-     * Send the response after the user was authenticated.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  App\User  $user
-     * @return \Illuminate\Http\Response
-     */
-    protected function authenticated(Request $request, $user){
-        $successmessage = 'Hej '.Auth::user()->name.', you have been successfully logged in!';
-        $request->session()->flash('success', $successmessage);
-        return redirect()->intended($this->redirectPath());
-    }
-    
-    /**
-     * Log the user out of the application.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function getLogout()
-    {
-        Auth::logout();
-        Session::flash('success', 'You have been successfully logged out!');
-        return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/');
-    }
+/**
+ * Create a new user instance after a valid registration.
+ *
+ * @param  array  $data
+ * @return User
+ */
+protected function create(array $data)
+{
+    Session::flash('success', 'User successfully created.');
+    return User::create([
+        'name' => $data['name'],
+        'email' => $data['email'],
+        'group' => $data['group'],
+        'password' => bcrypt($data['password']),
+    ]);
+}
+
+/**
+ * Send the response after the user was authenticated.
+ *
+ * @param  \Illuminate\Http\Request  $request
+ * @param  App\User  $user
+ * @return \Illuminate\Http\Response
+ */
+protected function authenticated(Request $request, $user){
+    $successmessage = 'Hej '.Auth::user()->name.', you have been successfully logged in!';
+    $request->session()->flash('success', $successmessage);
+    return redirect()->intended($this->redirectPath());
+}
+
+/**
+ * Log the user out of the application.
+ *
+ * @return \Illuminate\Http\Response
+ */
+public function getLogout()
+{
+    Auth::logout();
+    Session::flash('success', 'You have been successfully logged out!');
+    return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/');
+}
 ```
 
 These flash messages can then be displayed in the template by this snippet:
