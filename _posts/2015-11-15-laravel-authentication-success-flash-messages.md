@@ -21,6 +21,7 @@ On failed authentication, Laravel populates the ``$errors`` variable, so that th
 The functions relevant for authentication are part of the ``AuthenticatesUsers`` trait. Easy enough, we can overwrite the relevant functions in the ``AuthController``. See the listing below for a possible implementation. The `` Session::flash`` mechanism is used to inform on successful user registration, authentication and log out.
 
 ```php
+<?php
 /**
  * Create a new user instance after a valid registration.
  *
