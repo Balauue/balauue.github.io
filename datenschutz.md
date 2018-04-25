@@ -53,7 +53,7 @@ Parkallee 33
 48155 Münster  
 Germany
 
-Telefon: upon request  
+Telefon: auf Nachfrage
 E-Mail: jan@rck.ms
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
