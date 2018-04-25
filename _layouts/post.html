@@ -68,7 +68,9 @@
               <h4>{{ site.author }}</h4>
               <p class="bio">{{site.bio}}</p>
               <hr>
-              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time> | <a href="/impressum/">Impressum</a></p>
+              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date |
+                date_to_string }}</time> | <a href="/impressum/">Impressum</a> |
+                <a href="/datenschutz/">Datenschutzerklärung</a></p>
             </section>
           {{/post}}
         </div>
